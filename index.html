@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Your Portfolio</title>
+  <style>
+    /* Reset and Base Styles */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff;
+      color: #333;
+    }
+
+    header {
+      background: linear-gradient(45deg, #ff416c, #ff4b2b);
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      margin-top: 1rem;
+    }
+
+    nav ul li {
+      margin: 0 1rem;
+    }
+
+    nav ul li a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav ul li a:hover {
+      color: #ffe4e1;
+    }
+
+    .section {
+      padding: 3rem 2rem;
+      background: #f0f0f0;
+      margin-bottom: 1rem;
+    }
+
+    .section:nth-child(even) {
+      background: #fff0f5;
+    }
+
+    h2 {
+      color: #ff416c;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    .project-card {
+      background: white;
+      padding: 1rem;
+      margin-top: 1rem;
+      border-left: 5px solid #ff4b2b;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+    }
+
+    .project-card h3 {
+      margin: 0;
+      color: #ff4b2b;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #333;
+      color: white;
+    }
+
+    a {
+      color: #ff416c;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="home" class="section">
+    <h2>Welcome to My Portfolio</h2>
+    <p>I’m a passionate developer/designer/etc. Showcasing my projects and ideas.</p>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About Me</h2>
+    <p>This is where your short bio goes. Talk about your background, skills, and passions.</p>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Projects</h2>
+    <div class="project-card">
+      <h3>Project Title</h3>
+      <p>Description of the project, technologies used, and any links.</p>
+    </div>
+    <div class="project-card">
+      <h3>Another Project</h3>
+      <p>More descriptions of your work.</p>
+    </div>
+  </section>
+
+  <section id="blog" class="section">
+    <h2>Blog</h2>
+    <p>Coming soon: posts about what I’m learning and building.</p>
+  </section>
+
+  <section id="contact" class="section">
+    <h2>Contact Me</h2>
+    <p>Reach out via:</p>
+    <ul>
+      <li><a href="https://linkedin.com/">LinkedIn</a></li>
+      <li><a href="https://github.com/">GitHub</a></li>
+      <li><a href="https://instagram.com/">Instagram</a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© 2025 Your Name</p>
+  </footer>
+
+</body>
+</html>
